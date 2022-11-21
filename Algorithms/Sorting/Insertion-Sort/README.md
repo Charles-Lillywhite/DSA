@@ -6,7 +6,7 @@ INSERTION SORT:
 
 
 **Example**
-'''
+```
 arr = [11, 12, 13, 5, 6] 
 
 imagine we've sorted 11, 12, 13 (i = 0,1,2) and now i = 3 index is considered
@@ -23,4 +23,4 @@ while j >= 0 and arr[j] > item: # consider all entries to left of item which are
     j -= 1
     
 arr[j+1] = item # ie put item where it belongs. ([j + 1], not[j],  as the last j -= 1 moves into the already-sorted elements)
-'''
+```
