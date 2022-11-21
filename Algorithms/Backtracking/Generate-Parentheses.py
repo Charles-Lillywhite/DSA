@@ -1,3 +1,12 @@
+'''
+
+Generate all valid combinations of parenthesis of length 2*n
+All parenthesis must be part of a closed pair
+E.g for n = 2
+'()()' and '(())' are valid, but '))((', ')()(' etc are not
+
+'''
+
 def generate_parentheses(n):
     
     def is_valid(state):
