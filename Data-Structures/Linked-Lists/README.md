@@ -1,7 +1,7 @@
 
 In a standard array, item are stored sequentially in a contiguous block of memory.
-In a linked list this is not the case; each 'node' contains the value of
-the data item, as well as a pointer to the memory location of the next element.
+In a linked list this is not the case; **each 'node' contains the value of
+the data item, as well as a pointer to the memory location of the next element.**
 
 Linked lists are a simple data structure for storing a sequential collection.
 Unlike a standard Python list, it will allow us to insert at the beginning
