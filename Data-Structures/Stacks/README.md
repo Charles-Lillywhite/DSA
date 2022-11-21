@@ -10,4 +10,4 @@ The Stack ADT will have the following functionalities:
 
 - isempty (returns True if stack has no length, else False)
 
-The Stack class in 'Basic-Stack.py' illustrates the object-oriented strategy of composition (the Stack * ***has a*** *  list)
+The Stack class in 'Basic-Stack.py' illustrates the object-oriented strategy of composition (the Stack  ***has a***   list)
