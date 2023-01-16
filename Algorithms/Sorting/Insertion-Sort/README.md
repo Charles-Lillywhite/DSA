@@ -17,7 +17,7 @@ item = arr[i] # the value we want to compare to
 
 j = i - 1 # start j one left of i
 
-while j >= 0 and arr[j] > item: # consider all entries to left of item which are less than item
+while j >= 0 and arr[j] > item: # consider all entries to left of item which are greater than item
     
     arr[j+1] = arr[j] # move each element up 1 place
     j -= 1
