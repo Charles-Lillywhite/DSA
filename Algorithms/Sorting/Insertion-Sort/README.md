@@ -23,5 +23,5 @@ while j >= 0 and arr[j] > item: # consider all entries to left of item which are
     arr[j+1] = arr[j] # move each element up 1 place
     j -= 1
     
-arr[j+1] = item # ie put item where it belongs. ([j + 1], not[j],  as the last j -= 1 moves into the already-sorted elements)
+arr[j+1] = item # ie put item where it belongs. ([j + 1], not[j],  as the last j -= 1 moves us one index left of the correct place to insert)
 ```
