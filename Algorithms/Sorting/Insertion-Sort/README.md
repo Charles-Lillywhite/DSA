@@ -3,7 +3,7 @@ INSERTION SORT:
 - In Bubble Sort, we effectively sorted from end-to-start by pairwise comparison.
 - In insertion sort we effectively sort from start-to-end.
 - We consider each element in the list in turn - each time determining where it should exist amongst the previous (sorted) elements - before **inserting** it at the correct loation.
-
+- Worst case is &Omicron;(n^2) when array is sorted in reverse order, and best case is &Omega;(n) when already correctly sorted.
 
 
 **Example**
