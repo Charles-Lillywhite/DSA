@@ -1,0 +1,4 @@
+- We pick an element to be the `partition' (often the right-hand element), and rearrange the array such that all elements to the left of the pivot are < pivot, and all elements to the right are > pivot (ie the pivot element is in the correct place for a sorted array).
+- We then repeat this process on the elements to the left and right of the pivot respecitvely, and recurse until the array is fully sorted.
+- Worst case is &Omicron;(n^2) when array is already sorted (or sorted in reverse order). Best case occurs when the pivot element is always the median, and so we split the array into two halves each time  - &Omega;(n log(n))
+- A very good visualisation of quicksort can be found here: https://www.youtube.com/watch?v=0SkOjNaO1XY&t=667s.
