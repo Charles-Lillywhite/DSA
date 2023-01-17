@@ -1,0 +1,3 @@
+- Mergesort works on the *Divide and Conquer* paradigm: dividing an array into smaller subarrays, sorting each subarray, and then merging the sorted subarrays back together to form the final sorted array.
+- We continually split the array into halves (ie halving the halves) until we only have `atomic' (ie single element) arrays, which we then recombine in sorted order.
+- Worst (and best) case is &Omicron;(n log(n)), as it takes on average log(n) steps to split an array in half repeatedly to get single units, and at each recombination step we have ~ n elements to add back together in oder.
